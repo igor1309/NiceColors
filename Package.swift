@@ -20,6 +20,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "NiceColors",
-            dependencies: []),
+            dependencies: [],
+            resources: [.process("Resources")] // <- `copy` or `process` deson't really matter
+        ),
     ]
 )

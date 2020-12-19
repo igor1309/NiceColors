@@ -24,15 +24,15 @@ public enum Colors: String, CaseIterable {
     case indigo700300, lightBlue700200, lightGreen700200, lime800300
     case orange700200, pink700200, purple700200, red700200, teal700200, yellow700200
 
-    public var color: Color { Color(rawValue) }
+    //public var color: Color { Color(rawValue) }
 }
 
-@available(iOS 14.0, *)
-public extension Color {
-    init(_ color: Colors) {
-        self.init(color.rawValue)
-    }
-}
+//@available(iOS 14.0, *)
+//public extension Color {
+//    init(_ color: Colors) {
+//        self.init(color.rawValue)
+//    }
+//}
 
 /*
  https://github.com/trikita/palette
